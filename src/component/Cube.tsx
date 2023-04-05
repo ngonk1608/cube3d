@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 
 const Cube = () => {
   const ref: any = useRef();
-  const BG = "black";
   const cubeColor = "yellow";
   const speedX = 0.05;
   const speedY = 0.15;
